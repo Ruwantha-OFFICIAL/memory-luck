@@ -8,12 +8,15 @@ function mk(){
       val2:"luck"
     })
   }, 100);
-  setInterval(() => {
+  const app = setInterval(() => {
     //clear up array
     up = [];
   }, 8000);
+  
   setTimeout(() => {
     clearInterval(intervalId);
+    clearInterval(app);
+    
   }, 30000);
   autoAnlays(2000,0.05)
 }
