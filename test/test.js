@@ -12,6 +12,9 @@ function mk(){
     //clear up array
     up = [];
   }, 8000);
+  setTimeout(() => {
+    clearInterval(intervalId);
+  }, 30000);
   autoAnlays(2000,0.05)
 }
 mk()
