@@ -12,12 +12,13 @@ function mk(){
     //clear up array
     up = [];
   }, 8000);
-  
+  const analys = autoAnlays(2000,0.05)
   setTimeout(() => {
     clearInterval(intervalId);
     clearInterval(app);
+    clearInterval(analys);
     
   }, 30000);
-  autoAnlays(2000,0.05)
+  
 }
 mk()
