@@ -8,7 +8,7 @@ on:
 
 jobs: 
   test:
-    run-ons: ubuntu-latest 
+    runs-on: ubuntu-latest 
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -21,5 +21,6 @@ jobs:
           npx tsc
          
       - name: test 👾
+        timeout-minutes: 1
         run: npm test
         
