@@ -21,5 +21,6 @@ jobs:
           npx tsc
          
       - name: test 👾
+        timeout-minutes: 1
         run: npm test
         
