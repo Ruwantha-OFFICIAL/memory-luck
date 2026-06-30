@@ -3,10 +3,7 @@
 **Memory Analysis & Debugging Library**
 
 [![Downloads](https://badgen.net/npm/dw/memory-luck)](https://www.npmjs.com/package/memory-luck)
-
-
 [![NPM version](https://img.shields.io/npm/v/memory-luck.svg)](https://www.npmjs.com/package/memory-luck)
-
 [![Socket Badge](https://badge.socket.dev/npm/package/memory-luck/0.1.0)](https://badge.socket.dev/npm/package/memory-luck/0.1.0)
 [![Socket Badge](https://badgen.net/npm/license/memory-luck)](https://www.npmjs.com/package/memory-luck)
 
